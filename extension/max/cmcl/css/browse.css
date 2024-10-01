@@ -1,0 +1,2 @@
+.main-table tbody>tr>td:first-child, .main-table thead>tr>th:first-child {padding-left: 8px}
+.side-col .tree a.active{font-weight: 700; color: #0c64eb;}

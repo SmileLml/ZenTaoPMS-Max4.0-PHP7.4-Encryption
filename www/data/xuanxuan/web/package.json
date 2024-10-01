@@ -1,0 +1,74 @@
+{
+    "name": "zentaoclient",
+    "productName": "zentaoclient",
+    "displayName": "禅道",
+    "version": "7.0.0",
+    "displayVersion": "7.0",
+    "description": "专注于协同的聊天软件",
+    "main": "./main.js",
+    "author": {
+        "name": "青岛易软天创网络科技有限公司",
+        "email": "sunhao@cnezsoft.com"
+    },
+    "homepage": "https://www.zentao.net/",
+    "company": "青岛易软天创网络科技有限公司",
+    "license": "ZOSL 1.0 (http://zpl.pub/page/zoslv1.html)",
+    "bugs": {
+        "url": "https://www.xuanim.com/forum/"
+    },
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.2",
+        "extract-zip": "^1.6.7",
+        "iconv-lite": "^0.4.23",
+        "immutable": "^3.7.6",
+        "jquery": "^3.5.1",
+        "nodejs-traceroute": "^1.2.0",
+        "ping": "^0.4.2",
+        "react-chatview": "^0.2.5",
+        "react-electron-web-view": "^2.0.1",
+        "remove-markdown": "^0.3.0",
+        "socket.io-client": "^2.2.0",
+        "pretty-format": "^27.0.6",
+        "js-beautify": "^1.14.0"
+    },
+    "commit": "839559059945d23f741a9651c547979db4e07fe6",
+    "buildTime": "2023-01-03T02:33:49.540Z",
+    "buildVersion": "",
+    "buildTypes": {
+        "beta": false,
+        "debug": false
+    },
+    "configurations": {
+        "lang": {
+            "zh-cn": {
+                "app.title": "禅道",
+                "common.notification": "通知中心",
+                "login.serverUrl.hint": "请输入服务器地址",
+                "common.notificationIconLabel": "通"
+            },
+            "zh-tw": {
+                "app.title": "禅道",
+                "common.notification": "通知中心",
+                "login.serverUrl.hint": "请输入服务器地址",
+                "common.notificationIconLabel": "通"
+            },
+            "en": {
+                "app.title": "禅道",
+                "app.homepage": "http://www.zentao.pm/",
+                "common.notification": "通知中心",
+                "login.serverUrl.hint": "请输入服务器地址",
+                "common.notificationIconLabel": "通"
+            }
+        },
+        "ui": {
+            "app.windowDefaultWidth": 1280,
+            "app.windowMinWidth": 1280,
+            "defaultThemeColor": "#0c64eb",
+            "login.skipHTTPSecurityAlert": true,
+            "todo.enable": false,
+            "login.ldap": false,
+            "webview.frame.hiddenNavButtons": true
+        }
+    },
+    "updater": null
+}

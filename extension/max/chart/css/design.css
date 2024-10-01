@@ -1,0 +1,167 @@
+body.m-chart-design {background-color: #efefef;}
+#sidebar {width: 350px;}
+#sidebar>.cell {width: 100%;}
+.main-header {padding: 0 0 5px;}
+.item, .ant-radio-group.item {margin-top: 10px;}
+.item p {margin: 3px 0; font-weight: bold;}
+.border {border-top: 1px solid #eee; margin-top: 20px; padding-top: 10px;}
+.chart {min-height: 500px; position: relative;}
+.form-control {height: auto;}
+.form-control .ant-select-selection {
+    border: none;
+    border-radius: 0;
+}
+.control-title {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.control-title button {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 18px;
+    width: 18px;
+    padding: 0px;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 2px;
+}
+.control-title button:hover {
+    background-color: #e0e0e0;
+}
+.select-box {
+    padding: 4px;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 4px;
+}
+.select-inner {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    height: 28px;
+    padding-left: 4px;
+    font-size: 15px;
+    color: rgb(178, 178, 178);
+    border: 1px dashed rgb(224, 224, 224);
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 3px;
+}
+.select-inner:active, .select-inner:hover {background-color: rgb(240, 240, 240);}
+.select-inner:first-child {
+    margin-top: 0;
+}
+.select-inner .close {
+    height: 100%;
+    width: 24px;
+    border-right: 1px solid #c3c3c3;
+    cursor: pointer;
+}
+.select-inner .name {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-align: center;
+    align-items: center;
+    white-space: nowrap;
+    padding-left: 4px;
+}
+.select-inner .pop {
+    width: 24px;
+    cursor: pointer;
+}
+.ant-popover-content {width: 400px;}
+.ant-popover-content p {margin: 15px 0 2px}
+.ant-popover-content p:first-child {margin-top: 2px}
+.pop-bottom {margin-top: 30px;}
+.main-col {position: relative;}
+.runbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background: #fff;
+}
+.run {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+}
+.chart-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.chart-box .ant-table-thead>tr:first-child>th:first-child, .chart-box .ant-table-thead>tr:first-child>th:last-child {
+    padding: 8px;
+}
+.chart-box .ant-table-tbody>tr>td, .chart-box .ant-table-thead>tr>th {
+    padding: 8px;
+}
+p.required:after {
+    top: -2px;
+    right: -12px;
+}
+#draw {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+.table {
+    border: 1px solid #ddd;
+}
+.table tr td:not(:last-child) {
+    border-right: 1px solid #ddd;
+}
+.table tr td:last-child {
+    border-left: 1px solid #ddd;
+}
+.table td.bold {
+    font-weight: bold;
+}
+.filter-container {
+    display: flex;
+    padding: 10px 0 0;
+    flex-wrap: wrap;
+}
+.filter-condition {
+    flex: 1;
+    display: flex;
+}
+.filter-action {
+    padding-bottom: 10px;
+    text-align: right;
+    display: flex;
+    justify-content: end;
+}
+.filter-action button {
+    margin-left: 5px;
+}
+.filter {
+    position: relative;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.filter .remove {
+    position: absolute;
+    top: -13px;
+    right: -8px;
+    z-index: 1000;
+    background: #f1f1f1;
+    border: 1px solid #ddd;
+    padding: 3px;
+    border-radius: 14px;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    cursor: pointer;
+}
